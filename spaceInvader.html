@@ -7,83 +7,64 @@
         <style type="text/css">
             body{background-color: beige;
             }
-            .row{color:greenyellow;
+            .container-fluid{max-width:inherit;
+                             line-height:75px;
+                             margin-right:  75px;
+                            
+                                             
+            }    
+            .row{color:green;
                  }
-            .col-lg-1{
-                             background-color: greenyellow;
-                             height:75px;
-                             width: 100px;}
-            .col-lg-7{
-                             background-color: greenyellow;
-                             height:75px;
-                            width:700px;
-                             }
-            .col-lg-2{
-                             background-color: greenyellow;
-                             height:75px;
-                             width:200px;
-                             }
-            .col-lg-3{
-                             background-color: greenyellow;
-                             height:75px;
-                             width:300px;
-                             }
-            .col-lg-11{
-                             background-color: greenyellow;
-                             height:75px;
-                             width:1100px;
-                             }
-          
-        </style>
+            [ class *="col"] { background-color: green;}
+           
+                 }
+           
+            </style>
         <title>Space Invader</title>
     </head>
 
     <body>
-         <div class="container">
-
-      <div class="row">
-
-        
-       
+         <div class="container-fluid">
             <div class="row">
                 <!--1ere ligne 2 blocks  1 largeur-->
-                <div class="col-sm-1 col-sm-offset-3 col-lg-1 col-lg-offset-3">1colonne</div>
-                <div class="col-sm-1 col-sm-offset-5 col-lg-1 col-lg-offset-5">1colonne</div>
+                <div class="col-xs-1 col-xs-offset-3 col-sm-1 col-sm-offset-3 col-lg-1 col-lg-offset-3">1c</div>
+                <div class="col-xs-1 col-xs-offset-5 col-sm-1 col-sm-offset-5 col-lg-1 col-lg-offset-5">1c</div>
                
                 <!--2nd ligne 2 blocks  1 largeur-->
-                <div class="col-sm-1 col-sm-offset-4 col-lg-1 col-lg-offset-4">1colonne</div>
-                <div class="col-sm-1 col-sm-offset-3 col-lg-1 col-lg-offset-3">1colonne</div>
+                <div class="col-xs-1 col-xs-offset-4 col-sm-1 col-sm-offset-4 col-lg-1 col-lg-offset-4">1c</div>
+                <div class="col-xs-1 col-xs-offset-3 col-sm-1 col-sm-offset-3 col-lg-1 col-lg-offset-3">1c</div>
             
                 <!--3th ligne 1 blocks 7 largeurs-->
-                <div class="col-sm-7  col-sm-offset-3 col-lg-7 col-lg-offset-3">7colonnes</div>
+                <div class="col-xs-7 col-xs-offset-3 col-sm-7  col-sm-offset-3 col-lg-7 col-lg-offset-3">7c</div>
 
                 <!--4th ligne 3 blocks 2,3 largeurs-->
-                <div class="col-sm-2  col-sm-offset-2 col-lg-2 col-lg-offset-2">2colonnes</div>
-                <div class="col-sm-3 col-sm-offset-1 col-lg-3 col-lg-offset-1 ">3colonnes</div>
-                <div class="col-sm-2 col-sm-offset-1 col-lg-2 col-lg-offset-1">2colonnes</div>
+                <div class="col-xs-2 col-xs-offset-2 col-sm-2  col-sm-offset-2 col-lg-2 col-lg-offset-2">2c</div>
+                <div class="col-xs-3 col-xs-offset-1 col-sm-3 col-sm-offset-1 col-lg-3 col-lg-offset-1 ">3c</div>
+                <div class="col-xs-2 col-xs-offset-1 col-sm-2 col-sm-offset-1 col-lg-2 col-lg-offset-1">2c</div>
                
                 <!--5th ligne 1 block 11 largeurs-->
-                <div class='col-sm-11 col-sm-offset-1 col-lg-11 col-lg-offset-1'>11colonnes</div>
-            
+                <div class='col-xs-11 col-xs-offset-1 col-sm-11 col-sm-offset-1 col-lg-11 col-lg-offset-1'>11c</div>
+            <div lass="row">
                 <!--6th ligne 3 blocks 1,7 largeurs-->
-                <div class="col-sm-1 col-sm-offset-1 col-lg-1 col-lg-offset-1">1colonne</div>
-                <div class="col-sm-7 col-sm-offset-3 col-lg-7 col-lg-offset-1">7colonnes</div>
-                <div class="col-sm-1 col-sm-offset-1 col-lg-1 col-lg-offset-1">1colonne</div>
+                <div class="col-xs-1 col-xs-offset-1 col-sm-1 col-sm-offset-1 col-lg-1 col-lg-offset-1">1c</div>
+                <div class="col-xs-7 col-xs-offset-1 col-sm-7 col-sm-offset-1 col-lg-7 col-lg-offset-1">7c</div>
+                <div class="col-xs-1 col-xs-offset-1 col-sm-1 col-sm-offset-1 col-lg-1 col-lg-offset-1">1c</div>
+            </div>
                 
                 <!--7th ligne 2 blocks  1 largeur-->
-                <div class="col-sm-1 col-sm-offset-1 col-lg-1 col-lg-offset-1">1colonne</div>
-                <div class="col-sm-1 col-sm-offset-1 col-lg-1 col-lg-offset-1">1colonne</div>
+                <div class="col-xs-1 col-xs-offset-1 col-sm-1 col-sm-offset-1 col-lg-1 col-lg-offset-1">1c</div>
+                <div class="col-xs-1 col-xs-offset-1 col-sm-1 col-sm-offset-1 col-lg-1 col-lg-offset-1">1c</div>
                 
                 <!--8th ligne 2 blocks  1 largeur-->   
-                <div class="col-sm-1 col-sm-offset-5 col-lg-1 col-lg-offset-5">1colonne</div>
-                <div class="col-sm-1 col-sm-offset-1  col-lg-1 col-lg-offset-1">1colonne</div>
+                <div class="col-xs-1 col-xs-offset-5 col-sm-1 col-sm-offset-5 col-lg-1 col-lg-offset-5">1c</div>
+                <div class="col-xs-1 col-xs-offset-1 col-sm-1 col-sm-offset-1 col-lg-1 col-lg-offset-1">1c</div>
                 
                 <!--th ligne 2 blocks  2 largeur-->
-                <div class="col-sm-2 col-sm-offset-4 col-lg-2 col-lg-offset-4">2colonnes</div> 
-                <div class="col-sm-2 col-sm-offset-1  col-lg-2 col-lg-offset-1">2colonnes</div>
+                <div class="col-xs-2 col-xs-offset-4 col-sm-2 col-sm-offset-4 col-lg-2 col-lg-offset-4">2c</div> 
+                <div class="col-xs-2 col-xs-offset-1 col-sm-2 col-sm-offset-1  col-lg-2 col-lg-offset-1">2c</div>
 
         
-             </div> 
+            
              </div> 
            </div> 
          
